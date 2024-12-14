@@ -1,0 +1,20 @@
+TaskManagementSystem/
+│
+├── src/
+│   ├── Main.java                 // Entry point for the application
+│   ├── models/
+│   │   ├── Task.java             // Task entity
+│   │   └── User.java             // User entity
+│   ├── managers/
+│   │   ├── TaskManager.java      // Core task management logic
+│   │   ├── GraphManager.java     // Task dependency graph management
+│   │   └── UndoRedoManager.java  // Undo/Redo functionality
+│   ├── data_structures/
+│   │   ├── DynamicArray.java     // Custom dynamic array
+│   │   ├── LinkedList.java       // Custom linked list
+│   │   ├── Stack.java            // Custom stack implementation
+│   │   ├── Queue.java            // Custom queue implementation
+│   │   ├── BinarySearchTree.java // Custom BST for task analytics
+│   │   └── Graph.java            // Directed graph for dependencies
+│   └── utils/
+│       └── ReportExporter.java   // Utility to export task reports
